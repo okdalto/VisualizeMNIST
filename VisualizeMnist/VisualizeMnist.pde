@@ -9,7 +9,7 @@ PGraphics canvas;
 PGraphics visualization;
 
 float[][] inputMat = new float[1][784];
-boolean visualizeLines = true;
+boolean visualizeLines = false;
 import peasy.PeasyCam;
 PeasyCam visualizationCam;
 
@@ -36,7 +36,7 @@ void setup() {
 
 void draw() {
   canvas.beginDraw();
-  if (mousePressed && isDrawing) {
+  if (mousePressed) {
     canvas.stroke(255);
     canvas.strokeWeight(1.8);
     //draw line on the canvas
@@ -111,7 +111,6 @@ float[][] softmax(float[][] x) {
   for (int i = 0; i < x[0].length; i++) {
     float tempX = x[0][i];
     val[0][i] = exp(tempX);
-    println(val[0][i]);
     div += Math.exp(tempX);
   }
 
