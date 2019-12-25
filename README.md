@@ -1,8 +1,7 @@
 # VisualizeMnist
 This project is real-time visualization of a network recognizing digits from user's input.
 
-[![Video Label](http://img.youtube.com/vi/WQYCK1YpsjE/0.jpg)](https://youtu.be/WQYCK1YpsjE?t=0s)
-
+![≈ÿΩ∫∆Æ](Images/visualizeMNIST.gif °∞visualization of network°±) 
 
 [Youtube link](https://youtu.be/WQYCK1YpsjE?t=0s)
 

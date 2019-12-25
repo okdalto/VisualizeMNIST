@@ -113,12 +113,11 @@ float[][] softmax(float[][] x) {
     val[0][i] = exp(tempX);
     div += Math.exp(tempX);
   }
-
+  println("");
   for (int i = 0; i < x[0].length; i++) {
     val[0][i] /= div;
     println("number", i, "=", Math.round(val[0][i]*100), "%");
   }
-
   return val;
 }
 
